@@ -53,7 +53,6 @@ namespace Mastermind
                     continue;
                 }
                 guessNum = int.Parse(guess);
-               //-- string[] minSymbol = new string[4];
 
                 // Get the digits of the guess
                 int[] guessDigits = new int[4];
